@@ -1,0 +1,12 @@
+// _globals.scss
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1em/1.4 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
