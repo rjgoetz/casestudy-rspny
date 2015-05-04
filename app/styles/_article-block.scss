@@ -1,6 +1,7 @@
 // _article-block.scss
 
 .article-block {
+  margin-bottom: 2.5rem;
   h3 {
     margin: 0;
     margin-top: 1em;
@@ -10,18 +11,18 @@
     font-weight: bold;
     &:hover {
       color: $red;
-    }
+      }
     }
   }
   p {
     margin: 0;
-    margin-top: .5em;
+    margin-top: .25em;
     font-size: .75em;
     a {
     color: $grey-blue;
     &:hover {
       color: $dark-grey;
-    }
+      }
     }
   }
 }

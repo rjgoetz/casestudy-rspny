@@ -5,4 +5,8 @@
   font-size: .85em;
   font-weight: normal;
   letter-spacing: 2/16 * 1rem;
+  margin: 0;
+  a {
+  	color: $dark-grey;
+  }
 }
