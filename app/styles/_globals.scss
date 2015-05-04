@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font: 1em/1.4 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 1em/1.4 $font-stack-sans;
+  color: $dark-grey;
 }
 
 ul {

@@ -1,1 +1,14 @@
 // _main-headline.scss
+
+.main-headline {
+  font: 1.1em/1.5 $font-stack-serif;
+  background: $background-grey;
+  font-weight: normal;
+  padding: 2.5rem;
+  a {
+    color: $red;
+    &:hover {
+      color: $grey-blue;
+    }
+  }
+}
