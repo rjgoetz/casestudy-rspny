@@ -1,1 +1,9 @@
 // _logo.scss
+
+.logo {
+  color: $dark-grey;
+  text-transform: uppercase;
+  font-size: .85em;
+  font-weight: normal;
+  letter-spacing: 2/16 * 1rem;
+}
