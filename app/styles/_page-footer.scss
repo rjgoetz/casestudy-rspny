@@ -5,17 +5,15 @@
 	background: $background-grey;
 	padding: 2.5rem 0;	
 	margin-top: 1.5rem;
-	div ul {
+	ul {
 		line-height: 2.5;
 		a {			
 			color: $dark-grey;
 			&:hover {
 				color: $grey-blue;
 			}
-		}
-	}
-	div:nth-of-type(2) ul {
-		li:first-of-type a {
+		}		
+		&:first-of-type li:first-of-type a {
 			color: $red;
 			&:hover {
 				color: $grey-blue;

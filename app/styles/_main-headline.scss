@@ -1,11 +1,11 @@
 // _main-headline.scss
 
-.main-headline {
+.main-headline h2 {
   font: 1.05em/1.4 $font-stack-serif;
   background: $background-grey;
   font-weight: normal;
   padding: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin: 0 0 1.25rem 0;
   a {
     color: $red;
     &:hover {
