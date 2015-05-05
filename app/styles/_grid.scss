@@ -2,17 +2,18 @@
 
 .col1-4 {
 	width: 25%;
-	float: left;
 }
 
 .col1-2 {
 	width: 50%;
-	float: left;
 }
 
 .col3-4 {
 	width: 75%;
-	float: left;
+}
+
+.col1-1 {
+	width: 100%;
 }
 
 .row {
@@ -21,10 +22,7 @@
 	}
 }
 
-*[class*='col'] {
-	padding-left: 1.25em;
-}
-
-*[class*='col']:last-of-type {
-	padding-right: 1.25em;
+div[class*='col'] {
+	padding-left: 1.25rem;
+	float: left;
 }
